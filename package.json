@@ -1,0 +1,16 @@
+{
+  "name": "mood-in-pixels",
+  "version": "0.0.1",
+  "description": "Small tool to keep track of your mood during all year using pixels.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}

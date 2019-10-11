@@ -1,0 +1,538 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Mood
+    meta(name='description', content=' tool to keep track of your mood during all year .')
+    meta(name='image', content='MOOD.png')
+    meta(itemprop='name', content='Mood')
+    meta(itemprop='description', content='tool to keep track of your mood during all year ')
+    meta(itemprop='image', content='MOOD.png')
+    meta(name='og:title', content='Mood')
+    meta(name='og:description', content=' tool to keep track of your mood during all year .')
+    meta(name='og:image', content='MOOD.png')
+    meta(name='og:url', content='https://year-in-pixels.glitch.me/')
+    meta(name='og:site_name', content='Mood')
+    meta(name='og:type', content='website')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    link(rel='icon', type='image/png', href='https://cdn.glitch.com/86c99ebe-0198-4c6e-8de1-c4e515e04792%2Ffavicon.png?1546264249921')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='https://fonts.googleapis.com/css?family=Patrick+Hand|Sacramento|Coming+Soon', rel='stylesheet')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.0/chartist.min.css', integrity='sha256-Te9+aTaL9j0U5PzLhtAHt+SXlgIT8KT9VkyOZn68hak=', crossorigin='anonymous')
+    link(rel='stylesheet', href='/reset.css')
+    link(rel='stylesheet', href='/style.css')
+    link(rel='stylesheet', href='/font.css')
+    link(rel='manifest', href='/manifest.json')
+    meta(name='theme-color', content='#ffffff')
+  body
+    .content
+      .container
+        .column
+          .header
+            h1 Your Mood Calender
+        .column
+          #pixels
+      .container
+        .column
+          #moodGrid.grid
+            .item
+              span
+              .days
+                span.day 1
+                span.day 2
+                span.day 3
+                span.day 4
+                span.day 5
+                span.day 6
+                span.day 7
+                span.day 8
+                span.day 9
+                span.day 10
+                span.day 11
+                span.day 12
+                span.day 13
+                span.day 14
+                span.day 15
+                span.day 16
+                span.day 17
+                span.day 18
+                span.day 19
+                span.day 20
+                span.day 21
+                span.day 22
+                span.day 23
+                span.day 24
+                span.day 25
+                span.day 26
+                span.day 27
+                span.day 28
+                span.day 29
+                span.day 30
+                span.day 31
+            .item.month(data-month='Jan')
+              span J
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Feb')
+              span F
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Mar')
+              span M
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Apr')
+              span A
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='May')
+              span M
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Jun')
+              span J
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Jul')
+              span J
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Aug')
+              span A
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Sep')
+              span S
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Oct')
+              span O
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Nov')
+              span N
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+            .item.month(data-month='Dec')
+              span D
+              // grid
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+              a(href='#', data-mood='0')
+        .column
+          .interface
+            .mood-form
+              h2
+                | Hello there,
+                br
+                | How are you feeling today?
+              form#submitMood(action='')
+                div
+                  input#None.mood-0(type='radio', name='dayMood', value='0')
+                  a(href='#') None
+                  label(for='None')
+                div
+                  input#Sadness.mood-1(type='radio', name='dayMood', value='1')
+                  a(href='https://exsad.glitch.me') Sadness
+                  a(href='')
+                  label(for='Sadness')
+                div
+                  input#Stressed.mood-2(type='radio', name='dayMood', value='2')
+                  a(href='https://norsad.glitch.me') Stressed
+                  label(for='Stressed')
+                div
+                  input#Average.mood-3(type='radio', name='dayMood', value='3')
+                  a(href='https://awkwardface.glitch.me') Average
+                  label(for='Average')
+                div
+                  input#Happy.mood-4(type='radio', name='dayMood', value='4')
+                  a(href='https://normalhappy.glitch.me') Happy
+                  label(for='Happy')
+                div
+                  input#Amazing.mood-5(type='radio', name='dayMood', value='5')
+                  a(href='https://happyfac.glitch.me') Amazing
+                  label(for='Amazing')
+              #message
+                p
+                  | Your day has been
+                  u Amazing
+                  | .
+            #chart
+              .ct-chart
+      script(type='text/javascript').
+        var moodOptions = {"0":"None","1":"Sadness","2":"Stressed","3":"Average","4":"Happy","5":"Amazing"}
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.js', integrity='sha256-TFWSuDJt6kS+huV+vVlyV1jM3dwGdeNWqezhTxXB/X8=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.0/chartist.js', integrity='sha256-ecMZjeiA/pSkp5neBcgNy+5LhWaw5+CZTAldMlhfxnk=', crossorigin='anonymous')
+    script(src='/script.js')
+    script(src='/sw-register.js')
+    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-112818838-1')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-112818838-1');
+    script.
+      window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      fjs.parentNode.insertBefore(js, fjs);
+      t._e = [];
+      t.ready = function(f) {
+      t._e.push(f);
+      };
+      return t;
+      }(document, "script", "twitter-wjs"));
